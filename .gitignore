@@ -1,0 +1,41 @@
+# CMake build directories
+build/
+ros2/build/
+ros2/install/
+ros2/log/
+ros2/_deps/
+ros2/CMakeCache.txt
+ros2/CMakeFiles/
+ros2/Makefile
+ros2/cmake_install.cmake
+ros2/compile_commands.json
+ros2/CPackConfig.cmake
+ros2/CPackSourceConfig.cmake
+ros2/lib/
+ros2/bin/
+ros2/libfranka/
+ros2/libsoem.a
+ros2/libkistar_hand_base.a
+
+# ros2/test build artifacts
+ros2/test/CMakeFiles/
+ros2/test/Makefile
+ros2/test/cmake_install.cmake
+ros2/test/Franka_KISTAR_R_Exp_V1
+
+# Clangd cache
+ros2/.cache/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled objects
+*.o
+*.a
+*.so
+*.dylib
